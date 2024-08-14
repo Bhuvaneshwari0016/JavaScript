@@ -1,0 +1,47 @@
+<html>
+
+<head>
+
+    <script>
+
+        console.log("Script at the top: Executing");
+
+        const topElement = document.getElementById("content");
+
+        if (topElement) {
+
+            console.log("Script at the top: Content element found");
+
+        } else {
+
+            console.log("Script at the top: Content element not found");
+
+        }
+
+    </script>
+
+</head>
+
+<body>
+
+    <script>
+
+        console.log(" Executing");
+
+        const bottomElement = document.getElementById("content");
+
+        if (bottomElement) {
+
+            console.log("Script at the bottom: Content element found");
+
+        } else {
+
+            console.log("Script at the bottom: Content element not found");
+
+        }
+
+    </script>
+
+</body>
+
+</html>
